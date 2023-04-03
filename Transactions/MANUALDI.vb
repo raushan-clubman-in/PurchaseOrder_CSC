@@ -1998,7 +1998,7 @@ Public Class MANUALDI
         gSQLString = "SELECT DISTINCT ISNULL(VENDORCODE,'') AS VENDORCODE, ISNULL(VENDORNAME,'') AS VENDORNAME  FROM vendoritem "
         gSQLString = "SELECT DISTINCT ISNULL(VENDORCODE,'') AS VENDORCODE, ISNULL(VENDORNAME,'') AS VENDORNAME  FROM Invitem_VendorMaster 
          
-        M_WhereCondition = where itemcode In  (Select itemcode from AUTO_DI where dOCNO='" & txt_docno.Text & "'and ditype='MANUAL')"
+        M_WhereCondition = "where itemcode In  (Select itemcode from AUTO_DI where dOCNO='" & txt_docno.Text & "'and ditype='MANUAL')"
         If Trim(search) = " " Then
         Else
 

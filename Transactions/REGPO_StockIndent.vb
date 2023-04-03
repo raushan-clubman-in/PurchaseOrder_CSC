@@ -1777,14 +1777,16 @@ Public Class REGPO_StockIndent
                 '    sqlstring = sqlstring & "'N',"
                 '    sqlstring = sqlstring & " '" & Trim(gUsername) & "','" & Format(Now, "dd-MMM-yyyy hh:mm:ss") & "',"
                 '    sqlstring = sqlstring & "'" & Format(CDate(dtp_Indentdate.Value), "dd-MMM-yyyy") & "','" & txt_storecode.Text & "','" & txt_storeDesc.Text & "')"
+
+
                 For i = 1 To ssgrid.DataRowCnt
                     With ssgrid
-                        sqlstring = "UPDATE REG_PO_INDENT SET 
+                        sqlstring = "UPDATE REG_PO_INDENT SET "
                         ssgrid.Col = 1
                         ssgrid.Row = i
                         Itemcode = ""
                         Itemcode = Trim(ssgrid.Text)
-                        sqlstring = sqlstring & Itemcode='" & Itemcode & "'"
+                        sqlstring = sqlstring & "Itemcode='" & Itemcode & "'"
                         ssgrid.Col = 2
                         ssgrid.Row = i
                         sqlstring = sqlstring & ",Itemname='" & Trim(ssgrid.Text) & "'"
@@ -1801,7 +1803,6 @@ Public Class REGPO_StockIndent
                         If S = "01/01/00" Or S = "" Then
                             sqlstring = sqlstring & "POSTEDDATE='',"
                         Else
-
                             sqlstring = sqlstring & "POSTEDDATE='" & Format(CDate(ssgrid.Text), "dd-MMM-yyyy") & "',"
                         End If
 
@@ -1864,11 +1865,8 @@ Public Class REGPO_StockIndent
                 gconnection.MoreTrans(Insert)
 
                 Call cmd_Clear_Click(sender, e)
-
             Else
-
                 If cmd_Add.Text = "Add [F7]" Then
-
                     '''******************************************************** Insert into Indentdet **********************************'''
                     For i = 1 To ssgrid.DataRowCnt
                         ssgrid.Row = i
@@ -1925,13 +1923,8 @@ Public Class REGPO_StockIndent
 
 
                     Call cmd_Clear_Click(sender, e)
-
-
-
                 End If
             End If
-
-
         Catch ex As Exception
             MessageBox.Show("Plz Check Error : " & ex.Message, MyCompanyName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1)
             Exit Sub

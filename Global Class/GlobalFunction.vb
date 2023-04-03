@@ -250,7 +250,7 @@ Module GlobalFunction
             'Exit Function
         End If
         If FyearDateCheck(Startdate) = False Then
-            chkdatevalidate = False
+            chkdatevalidate = True
             MessageBox.Show("Date should be within the Financial year", MyCompanyName, MessageBoxButtons.OK, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1)
             'Exit Function
         End If

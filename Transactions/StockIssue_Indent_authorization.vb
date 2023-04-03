@@ -213,10 +213,10 @@ Public Class StockIssue_Indent_authorization
         Me.txt_Docno.BackColor = System.Drawing.Color.Wheat
         Me.txt_Docno.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Docno.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Docno.Location = New System.Drawing.Point(135, 20)
+        Me.txt_Docno.Location = New System.Drawing.Point(90, 13)
         Me.txt_Docno.MaxLength = 15
         Me.txt_Docno.Name = "txt_Docno"
-        Me.txt_Docno.Size = New System.Drawing.Size(324, 28)
+        Me.txt_Docno.Size = New System.Drawing.Size(216, 21)
         Me.txt_Docno.TabIndex = 1
         Me.txt_Docno.Visible = False
         '
@@ -224,9 +224,9 @@ Public Class StockIssue_Indent_authorization
         '
         Me.Cmd_Docnohelp.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_Docnohelp.Image = CType(resources.GetObject("Cmd_Docnohelp.Image"), System.Drawing.Image)
-        Me.Cmd_Docnohelp.Location = New System.Drawing.Point(464, 17)
+        Me.Cmd_Docnohelp.Location = New System.Drawing.Point(309, 11)
         Me.Cmd_Docnohelp.Name = "Cmd_Docnohelp"
-        Me.Cmd_Docnohelp.Size = New System.Drawing.Size(34, 40)
+        Me.Cmd_Docnohelp.Size = New System.Drawing.Size(23, 26)
         Me.Cmd_Docnohelp.TabIndex = 21
         Me.Cmd_Docnohelp.Visible = False
         '
@@ -235,11 +235,11 @@ Public Class StockIssue_Indent_authorization
         Me.txt_Mainstore.BackColor = System.Drawing.Color.Wheat
         Me.txt_Mainstore.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Mainstore.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Mainstore.Location = New System.Drawing.Point(285, 23)
+        Me.txt_Mainstore.Location = New System.Drawing.Point(190, 15)
         Me.txt_Mainstore.MaxLength = 15
         Me.txt_Mainstore.Name = "txt_Mainstore"
         Me.txt_Mainstore.ReadOnly = True
-        Me.txt_Mainstore.Size = New System.Drawing.Size(229, 28)
+        Me.txt_Mainstore.Size = New System.Drawing.Size(153, 21)
         Me.txt_Mainstore.TabIndex = 15
         Me.txt_Mainstore.Visible = False
         '
@@ -248,9 +248,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_Remarks.AutoSize = True
         Me.lbl_Remarks.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Remarks.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Remarks.Location = New System.Drawing.Point(36, 25)
+        Me.lbl_Remarks.Location = New System.Drawing.Point(24, 16)
         Me.lbl_Remarks.Name = "lbl_Remarks"
-        Me.lbl_Remarks.Size = New System.Drawing.Size(101, 21)
+        Me.lbl_Remarks.Size = New System.Drawing.Size(64, 15)
         Me.lbl_Remarks.TabIndex = 25
         Me.lbl_Remarks.Text = "REMARKS"
         '
@@ -259,9 +259,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_Tostore.AutoSize = True
         Me.lbl_Tostore.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Tostore.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Tostore.Location = New System.Drawing.Point(40, 69)
+        Me.lbl_Tostore.Location = New System.Drawing.Point(27, 45)
         Me.lbl_Tostore.Name = "lbl_Tostore"
-        Me.lbl_Tostore.Size = New System.Drawing.Size(102, 21)
+        Me.lbl_Tostore.Size = New System.Drawing.Size(65, 15)
         Me.lbl_Tostore.TabIndex = 17
         Me.lbl_Tostore.Text = "TO STORE"
         '
@@ -270,9 +270,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_Mainstore.AutoSize = True
         Me.lbl_Mainstore.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Mainstore.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Mainstore.Location = New System.Drawing.Point(15, 26)
+        Me.lbl_Mainstore.Location = New System.Drawing.Point(10, 17)
         Me.lbl_Mainstore.Name = "lbl_Mainstore"
-        Me.lbl_Mainstore.Size = New System.Drawing.Size(130, 21)
+        Me.lbl_Mainstore.Size = New System.Drawing.Size(82, 15)
         Me.lbl_Mainstore.TabIndex = 14
         Me.lbl_Mainstore.Text = "FROM STORE"
         Me.lbl_Mainstore.Visible = False
@@ -282,9 +282,9 @@ Public Class StockIssue_Indent_authorization
         Me.dtp_Docdate.CustomFormat = "dd/MM/yyyy"
         Me.dtp_Docdate.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtp_Docdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_Docdate.Location = New System.Drawing.Point(787, 20)
+        Me.dtp_Docdate.Location = New System.Drawing.Point(525, 13)
         Me.dtp_Docdate.Name = "dtp_Docdate"
-        Me.dtp_Docdate.Size = New System.Drawing.Size(144, 28)
+        Me.dtp_Docdate.Size = New System.Drawing.Size(96, 21)
         Me.dtp_Docdate.TabIndex = 2
         Me.dtp_Docdate.Visible = False
         '
@@ -294,9 +294,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_Heading.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Heading.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Heading.ForeColor = System.Drawing.Color.White
-        Me.lbl_Heading.Location = New System.Drawing.Point(357, 34)
+        Me.lbl_Heading.Location = New System.Drawing.Point(238, 22)
         Me.lbl_Heading.Name = "lbl_Heading"
-        Me.lbl_Heading.Size = New System.Drawing.Size(331, 27)
+        Me.lbl_Heading.Size = New System.Drawing.Size(215, 18)
         Me.lbl_Heading.TabIndex = 12
         Me.lbl_Heading.Text = "PO INDENT AUTHORIZATION"
         Me.lbl_Heading.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -306,9 +306,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_Docdate.AutoSize = True
         Me.lbl_Docdate.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Docdate.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Docdate.Location = New System.Drawing.Point(24, 67)
+        Me.lbl_Docdate.Location = New System.Drawing.Point(16, 44)
         Me.lbl_Docdate.Name = "lbl_Docdate"
-        Me.lbl_Docdate.Size = New System.Drawing.Size(130, 21)
+        Me.lbl_Docdate.Size = New System.Drawing.Size(80, 15)
         Me.lbl_Docdate.TabIndex = 22
         Me.lbl_Docdate.Text = "INDENT DATE"
         '
@@ -317,9 +317,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_Docno.AutoSize = True
         Me.lbl_Docno.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Docno.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Docno.Location = New System.Drawing.Point(42, 25)
+        Me.lbl_Docno.Location = New System.Drawing.Point(28, 16)
         Me.lbl_Docno.Name = "lbl_Docno"
-        Me.lbl_Docno.Size = New System.Drawing.Size(109, 21)
+        Me.lbl_Docno.Size = New System.Drawing.Size(68, 15)
         Me.lbl_Docno.TabIndex = 20
         Me.lbl_Docno.Text = "INDENT NO"
         '
@@ -333,9 +333,9 @@ Public Class StockIssue_Indent_authorization
         Me.grp_issue1.Controls.Add(Me.lbl_Tostore)
         Me.grp_issue1.Controls.Add(Me.txt_Mainstore)
         Me.grp_issue1.Controls.Add(Me.txt_Mainstorecode)
-        Me.grp_issue1.Location = New System.Drawing.Point(497, 177)
+        Me.grp_issue1.Location = New System.Drawing.Point(331, 115)
         Me.grp_issue1.Name = "grp_issue1"
-        Me.grp_issue1.Size = New System.Drawing.Size(524, 116)
+        Me.grp_issue1.Size = New System.Drawing.Size(350, 76)
         Me.grp_issue1.TabIndex = 13
         Me.grp_issue1.TabStop = False
         '
@@ -343,9 +343,9 @@ Public Class StockIssue_Indent_authorization
         '
         Me.cmd_storecode.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmd_storecode.Image = CType(resources.GetObject("cmd_storecode.Image"), System.Drawing.Image)
-        Me.cmd_storecode.Location = New System.Drawing.Point(246, 18)
+        Me.cmd_storecode.Location = New System.Drawing.Point(164, 12)
         Me.cmd_storecode.Name = "cmd_storecode"
-        Me.cmd_storecode.Size = New System.Drawing.Size(36, 40)
+        Me.cmd_storecode.Size = New System.Drawing.Size(24, 26)
         Me.cmd_storecode.TabIndex = 373
         Me.cmd_storecode.Visible = False
         '
@@ -353,28 +353,28 @@ Public Class StockIssue_Indent_authorization
         '
         Me.cbo_Tostore.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbo_Tostore.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbo_Tostore.Location = New System.Drawing.Point(148, 63)
+        Me.cbo_Tostore.Location = New System.Drawing.Point(99, 41)
         Me.cbo_Tostore.Name = "cbo_Tostore"
-        Me.cbo_Tostore.Size = New System.Drawing.Size(248, 29)
+        Me.cbo_Tostore.Size = New System.Drawing.Size(165, 23)
         Me.cbo_Tostore.TabIndex = 0
         '
         'txt_Tostorecode
         '
         Me.txt_Tostorecode.BackColor = System.Drawing.Color.Wheat
         Me.txt_Tostorecode.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Tostorecode.Location = New System.Drawing.Point(405, 63)
+        Me.txt_Tostorecode.Location = New System.Drawing.Point(270, 41)
         Me.txt_Tostorecode.Name = "txt_Tostorecode"
-        Me.txt_Tostorecode.Size = New System.Drawing.Size(109, 28)
+        Me.txt_Tostorecode.Size = New System.Drawing.Size(73, 21)
         Me.txt_Tostorecode.TabIndex = 18
         '
         'txt_Mainstorecode
         '
         Me.txt_Mainstorecode.BackColor = System.Drawing.Color.Wheat
         Me.txt_Mainstorecode.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Mainstorecode.Location = New System.Drawing.Point(148, 23)
+        Me.txt_Mainstorecode.Location = New System.Drawing.Point(99, 15)
         Me.txt_Mainstorecode.Name = "txt_Mainstorecode"
         Me.txt_Mainstorecode.ReadOnly = True
-        Me.txt_Mainstorecode.Size = New System.Drawing.Size(96, 28)
+        Me.txt_Mainstorecode.Size = New System.Drawing.Size(64, 21)
         Me.txt_Mainstorecode.TabIndex = 16
         Me.txt_Mainstorecode.Visible = False
         '
@@ -388,9 +388,9 @@ Public Class StockIssue_Indent_authorization
         Me.grp_issue2.Controls.Add(Me.Txt_IndentNo)
         Me.grp_issue2.Controls.Add(Me.cmd_IndentNoHelp)
         Me.grp_issue2.Controls.Add(Me.dtp_IndentDate)
-        Me.grp_issue2.Location = New System.Drawing.Point(12, 177)
+        Me.grp_issue2.Location = New System.Drawing.Point(8, 115)
         Me.grp_issue2.Name = "grp_issue2"
-        Me.grp_issue2.Size = New System.Drawing.Size(465, 116)
+        Me.grp_issue2.Size = New System.Drawing.Size(310, 76)
         Me.grp_issue2.TabIndex = 19
         Me.grp_issue2.TabStop = False
         '
@@ -400,9 +400,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label16.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label16.Location = New System.Drawing.Point(408, 18)
+        Me.Label16.Location = New System.Drawing.Point(272, 12)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(48, 37)
+        Me.Label16.Size = New System.Drawing.Size(32, 24)
         Me.Label16.TabIndex = 475
         Me.Label16.Text = "F4"
         Me.Label16.Visible = False
@@ -410,9 +410,9 @@ Public Class StockIssue_Indent_authorization
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(184, 57)
+        Me.PictureBox2.Location = New System.Drawing.Point(123, 37)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(44, 40)
+        Me.PictureBox2.Size = New System.Drawing.Size(29, 26)
         Me.PictureBox2.TabIndex = 474
         Me.PictureBox2.TabStop = False
         '
@@ -421,19 +421,19 @@ Public Class StockIssue_Indent_authorization
         Me.Txt_IndentNo.BackColor = System.Drawing.Color.Wheat
         Me.Txt_IndentNo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.Txt_IndentNo.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_IndentNo.Location = New System.Drawing.Point(171, 21)
+        Me.Txt_IndentNo.Location = New System.Drawing.Point(114, 14)
         Me.Txt_IndentNo.MaxLength = 15
         Me.Txt_IndentNo.Name = "Txt_IndentNo"
-        Me.Txt_IndentNo.Size = New System.Drawing.Size(192, 28)
+        Me.Txt_IndentNo.Size = New System.Drawing.Size(128, 21)
         Me.Txt_IndentNo.TabIndex = 374
         '
         'cmd_IndentNoHelp
         '
         Me.cmd_IndentNoHelp.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmd_IndentNoHelp.Image = CType(resources.GetObject("cmd_IndentNoHelp.Image"), System.Drawing.Image)
-        Me.cmd_IndentNoHelp.Location = New System.Drawing.Point(364, 20)
+        Me.cmd_IndentNoHelp.Location = New System.Drawing.Point(243, 13)
         Me.cmd_IndentNoHelp.Name = "cmd_IndentNoHelp"
-        Me.cmd_IndentNoHelp.Size = New System.Drawing.Size(35, 40)
+        Me.cmd_IndentNoHelp.Size = New System.Drawing.Size(23, 26)
         Me.cmd_IndentNoHelp.TabIndex = 376
         '
         'dtp_IndentDate
@@ -442,9 +442,9 @@ Public Class StockIssue_Indent_authorization
         Me.dtp_IndentDate.Enabled = False
         Me.dtp_IndentDate.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtp_IndentDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_IndentDate.Location = New System.Drawing.Point(256, 63)
+        Me.dtp_IndentDate.Location = New System.Drawing.Point(171, 41)
         Me.dtp_IndentDate.Name = "dtp_IndentDate"
-        Me.dtp_IndentDate.Size = New System.Drawing.Size(144, 28)
+        Me.dtp_IndentDate.Size = New System.Drawing.Size(96, 21)
         Me.dtp_IndentDate.TabIndex = 377
         '
         'Cmd_Exit
@@ -455,9 +455,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_Exit.ForeColor = System.Drawing.Color.Black
         Me.Cmd_Exit.Image = Global.SmartCard.My.Resources.Resources._Exit
         Me.Cmd_Exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_Exit.Location = New System.Drawing.Point(10, 258)
+        Me.Cmd_Exit.Location = New System.Drawing.Point(7, 168)
         Me.Cmd_Exit.Name = "Cmd_Exit"
-        Me.Cmd_Exit.Size = New System.Drawing.Size(182, 69)
+        Me.Cmd_Exit.Size = New System.Drawing.Size(121, 45)
         Me.Cmd_Exit.TabIndex = 11
         Me.Cmd_Exit.Text = "Exit[F11]"
         Me.Cmd_Exit.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -470,9 +470,9 @@ Public Class StockIssue_Indent_authorization
         Me.frmbut.Controls.Add(Me.Cmd_Clear)
         Me.frmbut.Controls.Add(Me.Cmd_Exit)
         Me.frmbut.Controls.Add(Me.Cmd_Add)
-        Me.frmbut.Location = New System.Drawing.Point(1088, 266)
+        Me.frmbut.Location = New System.Drawing.Point(725, 173)
         Me.frmbut.Name = "frmbut"
-        Me.frmbut.Size = New System.Drawing.Size(207, 352)
+        Me.frmbut.Size = New System.Drawing.Size(138, 230)
         Me.frmbut.TabIndex = 27
         Me.frmbut.TabStop = False
         '
@@ -483,9 +483,9 @@ Public Class StockIssue_Indent_authorization
         Me.btn_auth.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_auth.ForeColor = System.Drawing.Color.Black
         Me.btn_auth.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_auth.Location = New System.Drawing.Point(9, 179)
+        Me.btn_auth.Location = New System.Drawing.Point(6, 117)
         Me.btn_auth.Name = "btn_auth"
-        Me.btn_auth.Size = New System.Drawing.Size(181, 69)
+        Me.btn_auth.Size = New System.Drawing.Size(121, 45)
         Me.btn_auth.TabIndex = 466
         Me.btn_auth.Text = "View"
         Me.btn_auth.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -499,9 +499,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_Clear.ForeColor = System.Drawing.Color.Black
         Me.Cmd_Clear.Image = Global.SmartCard.My.Resources.Resources.Clear
         Me.Cmd_Clear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_Clear.Location = New System.Drawing.Point(10, 25)
+        Me.Cmd_Clear.Location = New System.Drawing.Point(7, 16)
         Me.Cmd_Clear.Name = "Cmd_Clear"
-        Me.Cmd_Clear.Size = New System.Drawing.Size(182, 69)
+        Me.Cmd_Clear.Size = New System.Drawing.Size(121, 45)
         Me.Cmd_Clear.TabIndex = 7
         Me.Cmd_Clear.Text = "Clear[F6]"
         Me.Cmd_Clear.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -515,9 +515,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_Add.ForeColor = System.Drawing.Color.Black
         Me.Cmd_Add.Image = Global.SmartCard.My.Resources.Resources.save
         Me.Cmd_Add.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_Add.Location = New System.Drawing.Point(10, 101)
+        Me.Cmd_Add.Location = New System.Drawing.Point(7, 66)
         Me.Cmd_Add.Name = "Cmd_Add"
-        Me.Cmd_Add.Size = New System.Drawing.Size(182, 69)
+        Me.Cmd_Add.Size = New System.Drawing.Size(121, 45)
         Me.Cmd_Add.TabIndex = 8
         Me.Cmd_Add.Text = "Authorise"
         Me.Cmd_Add.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -526,9 +526,9 @@ Public Class StockIssue_Indent_authorization
         'CMD_BROWSE
         '
         Me.CMD_BROWSE.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CMD_BROWSE.Location = New System.Drawing.Point(240, 483)
+        Me.CMD_BROWSE.Location = New System.Drawing.Point(160, 315)
         Me.CMD_BROWSE.Name = "CMD_BROWSE"
-        Me.CMD_BROWSE.Size = New System.Drawing.Size(182, 69)
+        Me.CMD_BROWSE.Size = New System.Drawing.Size(121, 45)
         Me.CMD_BROWSE.TabIndex = 468
         Me.CMD_BROWSE.Text = "Browse"
         Me.CMD_BROWSE.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -543,9 +543,9 @@ Public Class StockIssue_Indent_authorization
         Me.cmd_export.ForeColor = System.Drawing.Color.Black
         Me.cmd_export.Image = Global.SmartCard.My.Resources.Resources.excel
         Me.cmd_export.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.cmd_export.Location = New System.Drawing.Point(240, 327)
+        Me.cmd_export.Location = New System.Drawing.Point(160, 213)
         Me.cmd_export.Name = "cmd_export"
-        Me.cmd_export.Size = New System.Drawing.Size(182, 69)
+        Me.cmd_export.Size = New System.Drawing.Size(121, 45)
         Me.cmd_export.TabIndex = 467
         Me.cmd_export.Text = "Export"
         Me.cmd_export.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -560,9 +560,9 @@ Public Class StockIssue_Indent_authorization
         Me.cmd_Print.ForeColor = System.Drawing.Color.Black
         Me.cmd_Print.Image = Global.SmartCard.My.Resources.Resources.print
         Me.cmd_Print.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.cmd_Print.Location = New System.Drawing.Point(240, 248)
+        Me.cmd_Print.Location = New System.Drawing.Point(160, 162)
         Me.cmd_Print.Name = "cmd_Print"
-        Me.cmd_Print.Size = New System.Drawing.Size(182, 69)
+        Me.cmd_Print.Size = New System.Drawing.Size(121, 45)
         Me.cmd_Print.TabIndex = 22
         Me.cmd_Print.Text = "Print[F10]"
         Me.cmd_Print.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -577,9 +577,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_Freeze.ForeColor = System.Drawing.Color.Black
         Me.Cmd_Freeze.Image = Global.SmartCard.My.Resources.Resources.Delete
         Me.Cmd_Freeze.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_Freeze.Location = New System.Drawing.Point(240, 92)
+        Me.Cmd_Freeze.Location = New System.Drawing.Point(160, 60)
         Me.Cmd_Freeze.Name = "Cmd_Freeze"
-        Me.Cmd_Freeze.Size = New System.Drawing.Size(182, 69)
+        Me.Cmd_Freeze.Size = New System.Drawing.Size(121, 45)
         Me.Cmd_Freeze.TabIndex = 9
         Me.Cmd_Freeze.Text = "Void[F8]"
         Me.Cmd_Freeze.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -594,9 +594,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_View.ForeColor = System.Drawing.Color.Black
         Me.Cmd_View.Image = Global.SmartCard.My.Resources.Resources.view
         Me.Cmd_View.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Cmd_View.Location = New System.Drawing.Point(1088, 642)
+        Me.Cmd_View.Location = New System.Drawing.Point(725, 419)
         Me.Cmd_View.Name = "Cmd_View"
-        Me.Cmd_View.Size = New System.Drawing.Size(182, 69)
+        Me.Cmd_View.Size = New System.Drawing.Size(122, 45)
         Me.Cmd_View.TabIndex = 10
         Me.Cmd_View.Text = " View[F9]"
         Me.Cmd_View.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -607,9 +607,9 @@ Public Class StockIssue_Indent_authorization
         '
         Me.chk_excel.BackColor = System.Drawing.Color.Transparent
         Me.chk_excel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chk_excel.Location = New System.Drawing.Point(1139, 717)
+        Me.chk_excel.Location = New System.Drawing.Point(759, 468)
         Me.chk_excel.Name = "chk_excel"
-        Me.chk_excel.Size = New System.Drawing.Size(108, 37)
+        Me.chk_excel.Size = New System.Drawing.Size(72, 24)
         Me.chk_excel.TabIndex = 465
         Me.chk_excel.Text = "EXCEL"
         Me.chk_excel.UseVisualStyleBackColor = False
@@ -620,9 +620,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_Freeze.BackColor = System.Drawing.Color.Transparent
         Me.lbl_Freeze.Font = New System.Drawing.Font("Arial", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Freeze.ForeColor = System.Drawing.Color.Red
-        Me.lbl_Freeze.Location = New System.Drawing.Point(816, 35)
+        Me.lbl_Freeze.Location = New System.Drawing.Point(544, 23)
         Me.lbl_Freeze.Name = "lbl_Freeze"
-        Me.lbl_Freeze.Size = New System.Drawing.Size(400, 39)
+        Me.lbl_Freeze.Size = New System.Drawing.Size(267, 25)
         Me.lbl_Freeze.TabIndex = 26
         Me.lbl_Freeze.Text = "Record Void  On "
         Me.lbl_Freeze.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -639,9 +639,9 @@ Public Class StockIssue_Indent_authorization
         Me.grp_Stockissue.Controls.Add(Me.txt_ToDocno)
         Me.grp_Stockissue.Controls.Add(Me.Cmd_ToDocno)
         Me.grp_Stockissue.Controls.Add(Me.Cmd_FromDocno)
-        Me.grp_Stockissue.Location = New System.Drawing.Point(96, 1533)
+        Me.grp_Stockissue.Location = New System.Drawing.Point(64, 1000)
         Me.grp_Stockissue.Name = "grp_Stockissue"
-        Me.grp_Stockissue.Size = New System.Drawing.Size(780, 328)
+        Me.grp_Stockissue.Size = New System.Drawing.Size(520, 214)
         Me.grp_Stockissue.TabIndex = 360
         Me.grp_Stockissue.TabStop = False
         '
@@ -650,9 +650,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_Stockissuedetails.BackColor = System.Drawing.Color.Maroon
         Me.lbl_Stockissuedetails.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Stockissuedetails.ForeColor = System.Drawing.Color.White
-        Me.lbl_Stockissuedetails.Location = New System.Drawing.Point(0, 14)
+        Me.lbl_Stockissuedetails.Location = New System.Drawing.Point(0, 9)
         Me.lbl_Stockissuedetails.Name = "lbl_Stockissuedetails"
-        Me.lbl_Stockissuedetails.Size = New System.Drawing.Size(780, 37)
+        Me.lbl_Stockissuedetails.Size = New System.Drawing.Size(520, 24)
         Me.lbl_Stockissuedetails.TabIndex = 26
         Me.lbl_Stockissuedetails.Text = "ISSUE CHECKLIST"
         Me.lbl_Stockissuedetails.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -664,9 +664,9 @@ Public Class StockIssue_Indent_authorization
         Me.GroupBox2.Controls.Add(Me.Cmd_IssueView)
         Me.GroupBox2.Controls.Add(Me.Cmd_Issueexit)
         Me.GroupBox2.Controls.Add(Me.Cmd_IssueClear)
-        Me.GroupBox2.Location = New System.Drawing.Point(12, 233)
+        Me.GroupBox2.Location = New System.Drawing.Point(8, 152)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(744, 86)
+        Me.GroupBox2.Size = New System.Drawing.Size(496, 56)
         Me.GroupBox2.TabIndex = 25
         Me.GroupBox2.TabStop = False
         '
@@ -677,9 +677,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_Issueprint.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_Issueprint.ForeColor = System.Drawing.Color.White
         Me.Cmd_Issueprint.Image = CType(resources.GetObject("Cmd_Issueprint.Image"), System.Drawing.Image)
-        Me.Cmd_Issueprint.Location = New System.Drawing.Point(384, 25)
+        Me.Cmd_Issueprint.Location = New System.Drawing.Point(256, 16)
         Me.Cmd_Issueprint.Name = "Cmd_Issueprint"
-        Me.Cmd_Issueprint.Size = New System.Drawing.Size(156, 49)
+        Me.Cmd_Issueprint.Size = New System.Drawing.Size(104, 32)
         Me.Cmd_Issueprint.TabIndex = 25
         Me.Cmd_Issueprint.Text = "Print [F10]"
         Me.Cmd_Issueprint.UseVisualStyleBackColor = False
@@ -691,9 +691,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_IssueView.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_IssueView.ForeColor = System.Drawing.Color.White
         Me.Cmd_IssueView.Image = CType(resources.GetObject("Cmd_IssueView.Image"), System.Drawing.Image)
-        Me.Cmd_IssueView.Location = New System.Drawing.Point(192, 25)
+        Me.Cmd_IssueView.Location = New System.Drawing.Point(128, 16)
         Me.Cmd_IssueView.Name = "Cmd_IssueView"
-        Me.Cmd_IssueView.Size = New System.Drawing.Size(156, 49)
+        Me.Cmd_IssueView.Size = New System.Drawing.Size(104, 32)
         Me.Cmd_IssueView.TabIndex = 13
         Me.Cmd_IssueView.Text = "View [F9]"
         Me.Cmd_IssueView.UseVisualStyleBackColor = False
@@ -705,9 +705,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_Issueexit.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_Issueexit.ForeColor = System.Drawing.Color.White
         Me.Cmd_Issueexit.Image = CType(resources.GetObject("Cmd_Issueexit.Image"), System.Drawing.Image)
-        Me.Cmd_Issueexit.Location = New System.Drawing.Point(564, 25)
+        Me.Cmd_Issueexit.Location = New System.Drawing.Point(376, 16)
         Me.Cmd_Issueexit.Name = "Cmd_Issueexit"
-        Me.Cmd_Issueexit.Size = New System.Drawing.Size(156, 49)
+        Me.Cmd_Issueexit.Size = New System.Drawing.Size(104, 32)
         Me.Cmd_Issueexit.TabIndex = 15
         Me.Cmd_Issueexit.Text = "Exit[F11]"
         Me.Cmd_Issueexit.UseVisualStyleBackColor = False
@@ -719,9 +719,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_IssueClear.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_IssueClear.ForeColor = System.Drawing.Color.White
         Me.Cmd_IssueClear.Image = CType(resources.GetObject("Cmd_IssueClear.Image"), System.Drawing.Image)
-        Me.Cmd_IssueClear.Location = New System.Drawing.Point(12, 25)
+        Me.Cmd_IssueClear.Location = New System.Drawing.Point(8, 16)
         Me.Cmd_IssueClear.Name = "Cmd_IssueClear"
-        Me.Cmd_IssueClear.Size = New System.Drawing.Size(156, 49)
+        Me.Cmd_IssueClear.Size = New System.Drawing.Size(104, 32)
         Me.Cmd_IssueClear.TabIndex = 24
         Me.Cmd_IssueClear.Text = "Clear[F6]"
         Me.Cmd_IssueClear.UseVisualStyleBackColor = False
@@ -731,9 +731,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_FromDocno.AutoSize = True
         Me.lbl_FromDocno.BackColor = System.Drawing.Color.Transparent
         Me.lbl_FromDocno.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_FromDocno.Location = New System.Drawing.Point(72, 86)
+        Me.lbl_FromDocno.Location = New System.Drawing.Point(48, 56)
         Me.lbl_FromDocno.Name = "lbl_FromDocno"
-        Me.lbl_FromDocno.Size = New System.Drawing.Size(201, 26)
+        Me.lbl_FromDocno.Size = New System.Drawing.Size(134, 19)
         Me.lbl_FromDocno.TabIndex = 2
         Me.lbl_FromDocno.Text = "FROM DOC NO :"
         '
@@ -741,9 +741,9 @@ Public Class StockIssue_Indent_authorization
         '
         Me.txt_FromDocno.BackColor = System.Drawing.Color.Wheat
         Me.txt_FromDocno.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_FromDocno.Location = New System.Drawing.Point(300, 86)
+        Me.txt_FromDocno.Location = New System.Drawing.Point(200, 56)
         Me.txt_FromDocno.Name = "txt_FromDocno"
-        Me.txt_FromDocno.Size = New System.Drawing.Size(312, 40)
+        Me.txt_FromDocno.Size = New System.Drawing.Size(208, 29)
         Me.txt_FromDocno.TabIndex = 4
         '
         'lbl_ToDocno
@@ -751,9 +751,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_ToDocno.AutoSize = True
         Me.lbl_ToDocno.BackColor = System.Drawing.Color.Transparent
         Me.lbl_ToDocno.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_ToDocno.Location = New System.Drawing.Point(108, 159)
+        Me.lbl_ToDocno.Location = New System.Drawing.Point(72, 104)
         Me.lbl_ToDocno.Name = "lbl_ToDocno"
-        Me.lbl_ToDocno.Size = New System.Drawing.Size(161, 26)
+        Me.lbl_ToDocno.Size = New System.Drawing.Size(107, 19)
         Me.lbl_ToDocno.TabIndex = 3
         Me.lbl_ToDocno.Text = "TO DOC NO :"
         '
@@ -761,9 +761,9 @@ Public Class StockIssue_Indent_authorization
         '
         Me.txt_ToDocno.BackColor = System.Drawing.Color.Wheat
         Me.txt_ToDocno.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_ToDocno.Location = New System.Drawing.Point(300, 159)
+        Me.txt_ToDocno.Location = New System.Drawing.Point(200, 104)
         Me.txt_ToDocno.Name = "txt_ToDocno"
-        Me.txt_ToDocno.Size = New System.Drawing.Size(312, 40)
+        Me.txt_ToDocno.Size = New System.Drawing.Size(208, 29)
         Me.txt_ToDocno.TabIndex = 5
         '
         'Cmd_ToDocno
@@ -771,9 +771,9 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_ToDocno.BackColor = System.Drawing.Color.Transparent
         Me.Cmd_ToDocno.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_ToDocno.Image = CType(resources.GetObject("Cmd_ToDocno.Image"), System.Drawing.Image)
-        Me.Cmd_ToDocno.Location = New System.Drawing.Point(612, 159)
+        Me.Cmd_ToDocno.Location = New System.Drawing.Point(408, 104)
         Me.Cmd_ToDocno.Name = "Cmd_ToDocno"
-        Me.Cmd_ToDocno.Size = New System.Drawing.Size(34, 45)
+        Me.Cmd_ToDocno.Size = New System.Drawing.Size(23, 29)
         Me.Cmd_ToDocno.TabIndex = 39
         Me.Cmd_ToDocno.UseVisualStyleBackColor = False
         '
@@ -782,19 +782,19 @@ Public Class StockIssue_Indent_authorization
         Me.Cmd_FromDocno.BackColor = System.Drawing.Color.Transparent
         Me.Cmd_FromDocno.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmd_FromDocno.Image = CType(resources.GetObject("Cmd_FromDocno.Image"), System.Drawing.Image)
-        Me.Cmd_FromDocno.Location = New System.Drawing.Point(612, 86)
+        Me.Cmd_FromDocno.Location = New System.Drawing.Point(408, 56)
         Me.Cmd_FromDocno.Name = "Cmd_FromDocno"
-        Me.Cmd_FromDocno.Size = New System.Drawing.Size(34, 44)
+        Me.Cmd_FromDocno.Size = New System.Drawing.Size(23, 29)
         Me.Cmd_FromDocno.TabIndex = 38
         Me.Cmd_FromDocno.UseVisualStyleBackColor = False
         '
         'ssgrid
         '
         Me.ssgrid.DataSource = Nothing
-        Me.ssgrid.Location = New System.Drawing.Point(16, 362)
+        Me.ssgrid.Location = New System.Drawing.Point(11, 236)
         Me.ssgrid.Name = "ssgrid"
         Me.ssgrid.OcxState = CType(resources.GetObject("ssgrid.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.ssgrid.Size = New System.Drawing.Size(1052, 316)
+        Me.ssgrid.Size = New System.Drawing.Size(701, 206)
         Me.ssgrid.TabIndex = 368
         '
         'lbl_closingqty
@@ -803,9 +803,9 @@ Public Class StockIssue_Indent_authorization
         Me.lbl_closingqty.BackColor = System.Drawing.Color.Transparent
         Me.lbl_closingqty.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_closingqty.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lbl_closingqty.Location = New System.Drawing.Point(58, 104)
+        Me.lbl_closingqty.Location = New System.Drawing.Point(39, 68)
         Me.lbl_closingqty.Name = "lbl_closingqty"
-        Me.lbl_closingqty.Size = New System.Drawing.Size(244, 33)
+        Me.lbl_closingqty.Size = New System.Drawing.Size(159, 24)
         Me.lbl_closingqty.TabIndex = 369
         Me.lbl_closingqty.Text = "CLOSING QTY :"
         Me.lbl_closingqty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -816,9 +816,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(42, 23)
+        Me.Label1.Location = New System.Drawing.Point(28, 15)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(87, 21)
+        Me.Label1.Size = New System.Drawing.Size(55, 15)
         Me.Label1.TabIndex = 375
         Me.Label1.Text = "DOC NO "
         Me.Label1.Visible = False
@@ -828,9 +828,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(571, 25)
+        Me.Label2.Location = New System.Drawing.Point(381, 16)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(108, 21)
+        Me.Label2.Size = New System.Drawing.Size(67, 15)
         Me.Label2.TabIndex = 378
         Me.Label2.Text = " DOC DATE"
         Me.Label2.Visible = False
@@ -845,9 +845,9 @@ Public Class StockIssue_Indent_authorization
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Cmd_Docnohelp)
         Me.GroupBox1.Controls.Add(Me.txt_Docno)
-        Me.GroupBox1.Location = New System.Drawing.Point(18, 299)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 195)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(989, 69)
+        Me.GroupBox1.Size = New System.Drawing.Size(659, 45)
         Me.GroupBox1.TabIndex = 379
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Visible = False
@@ -858,9 +858,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label4.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(504, 20)
+        Me.Label4.Location = New System.Drawing.Point(336, 13)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(48, 37)
+        Me.Label4.Size = New System.Drawing.Size(32, 24)
         Me.Label4.TabIndex = 476
         Me.Label4.Text = "F4"
         Me.Label4.Visible = False
@@ -868,9 +868,9 @@ Public Class StockIssue_Indent_authorization
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(720, 13)
+        Me.PictureBox1.Location = New System.Drawing.Point(480, 8)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(46, 40)
+        Me.PictureBox1.Size = New System.Drawing.Size(31, 27)
         Me.PictureBox1.TabIndex = 475
         Me.PictureBox1.TabStop = False
         Me.PictureBox1.Visible = False
@@ -879,9 +879,9 @@ Public Class StockIssue_Indent_authorization
         '
         Me.Chk_item.BackColor = System.Drawing.Color.Transparent
         Me.Chk_item.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Chk_item.Location = New System.Drawing.Point(82, 80)
+        Me.Chk_item.Location = New System.Drawing.Point(55, 52)
         Me.Chk_item.Name = "Chk_item"
-        Me.Chk_item.Size = New System.Drawing.Size(180, 37)
+        Me.Chk_item.Size = New System.Drawing.Size(120, 24)
         Me.Chk_item.TabIndex = 463
         Me.Chk_item.Text = "FooterUpdation"
         Me.Chk_item.UseVisualStyleBackColor = False
@@ -892,11 +892,11 @@ Public Class StockIssue_Indent_authorization
         Me.txt_Remarks.BackColor = System.Drawing.Color.White
         Me.txt_Remarks.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Remarks.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Remarks.Location = New System.Drawing.Point(180, 25)
+        Me.txt_Remarks.Location = New System.Drawing.Point(120, 16)
         Me.txt_Remarks.MaxLength = 200
         Me.txt_Remarks.Multiline = True
         Me.txt_Remarks.Name = "txt_Remarks"
-        Me.txt_Remarks.Size = New System.Drawing.Size(720, 49)
+        Me.txt_Remarks.Size = New System.Drawing.Size(480, 32)
         Me.txt_Remarks.TabIndex = 443
         '
         'GroupBox3
@@ -905,9 +905,9 @@ Public Class StockIssue_Indent_authorization
         Me.GroupBox3.Controls.Add(Me.Label20)
         Me.GroupBox3.Controls.Add(Me.txt_Remarks)
         Me.GroupBox3.Controls.Add(Me.lbl_Remarks)
-        Me.GroupBox3.Location = New System.Drawing.Point(87, 954)
+        Me.GroupBox3.Location = New System.Drawing.Point(58, 622)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(997, 99)
+        Me.GroupBox3.Size = New System.Drawing.Size(665, 65)
         Me.GroupBox3.TabIndex = 464
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Visible = False
@@ -918,9 +918,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label20.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label20.Location = New System.Drawing.Point(36, 49)
+        Me.Label20.Location = New System.Drawing.Point(24, 32)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(108, 37)
+        Me.Label20.Size = New System.Drawing.Size(72, 24)
         Me.Label20.TabIndex = 478
         Me.Label20.Text = "ALT+ R"
         '
@@ -929,9 +929,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(118, 687)
+        Me.Label10.Location = New System.Drawing.Point(79, 448)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(312, 24)
+        Me.Label10.Size = New System.Drawing.Size(208, 16)
         Me.Label10.TabIndex = 466
         Me.Label10.Text = "[F3 DELETE A ROW IN GRID]"
         '
@@ -939,9 +939,9 @@ Public Class StockIssue_Indent_authorization
         '
         Me.CHK_WAR.BackColor = System.Drawing.Color.Transparent
         Me.CHK_WAR.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CHK_WAR.Location = New System.Drawing.Point(12, 86)
+        Me.CHK_WAR.Location = New System.Drawing.Point(8, 56)
         Me.CHK_WAR.Name = "CHK_WAR"
-        Me.CHK_WAR.Size = New System.Drawing.Size(96, 37)
+        Me.CHK_WAR.Size = New System.Drawing.Size(64, 24)
         Me.CHK_WAR.TabIndex = 467
         Me.CHK_WAR.Text = "WAR"
         Me.CHK_WAR.UseVisualStyleBackColor = False
@@ -955,9 +955,9 @@ Public Class StockIssue_Indent_authorization
         Me.dtp_completiondate.CustomFormat = "dd/MM/yyyy"
         Me.dtp_completiondate.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtp_completiondate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtp_completiondate.Location = New System.Drawing.Point(732, 25)
+        Me.dtp_completiondate.Location = New System.Drawing.Point(488, 16)
         Me.dtp_completiondate.Name = "dtp_completiondate"
-        Me.dtp_completiondate.Size = New System.Drawing.Size(200, 28)
+        Me.dtp_completiondate.Size = New System.Drawing.Size(133, 21)
         Me.dtp_completiondate.TabIndex = 486
         '
         'Label11
@@ -965,9 +965,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(518, 31)
+        Me.Label11.Location = New System.Drawing.Point(345, 20)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(210, 21)
+        Me.Label11.Size = New System.Drawing.Size(131, 15)
         Me.Label11.TabIndex = 483
         Me.Label11.Text = "AUTHORIZATION DATE"
         '
@@ -976,9 +976,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(16, 28)
+        Me.Label15.Location = New System.Drawing.Point(11, 18)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(160, 21)
+        Me.Label15.Size = New System.Drawing.Size(99, 15)
         Me.Label15.TabIndex = 485
         Me.Label15.Text = "AUTHORISED BY"
         '
@@ -986,27 +986,27 @@ Public Class StockIssue_Indent_authorization
         '
         Me.cmb_approvedby.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmb_approvedby.Items.AddRange(New Object() {"MANAGER", "STORE INCHARGE"})
-        Me.cmb_approvedby.Location = New System.Drawing.Point(200, 23)
+        Me.cmb_approvedby.Location = New System.Drawing.Point(133, 15)
         Me.cmb_approvedby.Name = "cmb_approvedby"
-        Me.cmb_approvedby.Size = New System.Drawing.Size(282, 29)
+        Me.cmb_approvedby.Size = New System.Drawing.Size(188, 23)
         Me.cmb_approvedby.TabIndex = 484
         '
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(172, 172)
+        Me.Label3.Location = New System.Drawing.Point(115, 112)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(164, 24)
+        Me.Label3.Size = New System.Drawing.Size(109, 16)
         Me.Label3.TabIndex = 488
         Me.Label3.Text = "AUTH. DOC1"
         '
         'Pic_auth1
         '
         Me.Pic_auth1.BackColor = System.Drawing.Color.White
-        Me.Pic_auth1.Location = New System.Drawing.Point(24, 67)
+        Me.Pic_auth1.Location = New System.Drawing.Point(16, 44)
         Me.Pic_auth1.Name = "Pic_auth1"
-        Me.Pic_auth1.Size = New System.Drawing.Size(465, 96)
+        Me.Pic_auth1.Size = New System.Drawing.Size(310, 62)
         Me.Pic_auth1.TabIndex = 487
         Me.Pic_auth1.TabStop = False
         '
@@ -1014,18 +1014,18 @@ Public Class StockIssue_Indent_authorization
         '
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(682, 172)
+        Me.Label5.Location = New System.Drawing.Point(455, 112)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(137, 24)
+        Me.Label5.Size = New System.Drawing.Size(91, 16)
         Me.Label5.TabIndex = 490
         Me.Label5.Text = "AUTH. DOC2"
         '
         'Pic_auth2
         '
         Me.Pic_auth2.BackColor = System.Drawing.Color.White
-        Me.Pic_auth2.Location = New System.Drawing.Point(513, 67)
+        Me.Pic_auth2.Location = New System.Drawing.Point(342, 44)
         Me.Pic_auth2.Name = "Pic_auth2"
-        Me.Pic_auth2.Size = New System.Drawing.Size(456, 96)
+        Me.Pic_auth2.Size = New System.Drawing.Size(304, 62)
         Me.Pic_auth2.TabIndex = 489
         Me.Pic_auth2.TabStop = False
         '
@@ -1047,9 +1047,9 @@ Public Class StockIssue_Indent_authorization
         Me.GroupBox4.Controls.Add(Me.dtp_completiondate)
         Me.GroupBox4.Controls.Add(Me.Chk_item)
         Me.GroupBox4.Controls.Add(Me.Label3)
-        Me.GroupBox4.Location = New System.Drawing.Point(87, 739)
+        Me.GroupBox4.Location = New System.Drawing.Point(58, 482)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(997, 209)
+        Me.GroupBox4.Size = New System.Drawing.Size(665, 136)
         Me.GroupBox4.TabIndex = 476
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Visible = False
@@ -1059,9 +1059,9 @@ Public Class StockIssue_Indent_authorization
         Me.Ty.Controls.Add(Me.CheckBox3)
         Me.Ty.Controls.Add(Me.CheckBox2)
         Me.Ty.Controls.Add(Me.CheckBox1)
-        Me.Ty.Location = New System.Drawing.Point(489, 51)
+        Me.Ty.Location = New System.Drawing.Point(326, 33)
         Me.Ty.Name = "Ty"
-        Me.Ty.Size = New System.Drawing.Size(225, 158)
+        Me.Ty.Size = New System.Drawing.Size(150, 103)
         Me.Ty.TabIndex = 495
         Me.Ty.TabStop = False
         Me.Ty.Text = "Type"
@@ -1069,9 +1069,9 @@ Public Class StockIssue_Indent_authorization
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(6, 101)
+        Me.CheckBox3.Location = New System.Drawing.Point(4, 66)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(150, 27)
+        Me.CheckBox3.Size = New System.Drawing.Size(98, 19)
         Me.CheckBox3.TabIndex = 496
         Me.CheckBox3.Text = "Delivery note"
         Me.CheckBox3.UseVisualStyleBackColor = True
@@ -1079,9 +1079,9 @@ Public Class StockIssue_Indent_authorization
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(6, 66)
+        Me.CheckBox2.Location = New System.Drawing.Point(4, 43)
         Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(143, 27)
+        Me.CheckBox2.Size = New System.Drawing.Size(95, 19)
         Me.CheckBox2.TabIndex = 495
         Me.CheckBox2.Text = "Stock Indent"
         Me.CheckBox2.UseVisualStyleBackColor = True
@@ -1089,9 +1089,9 @@ Public Class StockIssue_Indent_authorization
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(6, 31)
+        Me.CheckBox1.Location = New System.Drawing.Point(4, 20)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(172, 27)
+        Me.CheckBox1.Size = New System.Drawing.Size(116, 19)
         Me.CheckBox1.TabIndex = 494
         Me.CheckBox1.Text = "Purchage Order"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -1103,9 +1103,9 @@ Public Class StockIssue_Indent_authorization
         Me.GroupBox5.Controls.Add(Me.Label6)
         Me.GroupBox5.Controls.Add(Me.Txt_qty)
         Me.GroupBox5.Controls.Add(Me.txt_Totalamount)
-        Me.GroupBox5.Location = New System.Drawing.Point(656, 684)
+        Me.GroupBox5.Location = New System.Drawing.Point(437, 446)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(434, 58)
+        Me.GroupBox5.Size = New System.Drawing.Size(290, 38)
         Me.GroupBox5.TabIndex = 491
         Me.GroupBox5.TabStop = False
         '
@@ -1114,9 +1114,9 @@ Public Class StockIssue_Indent_authorization
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(10, 18)
+        Me.Label6.Location = New System.Drawing.Point(7, 12)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(69, 21)
+        Me.Label6.Size = New System.Drawing.Size(44, 15)
         Me.Label6.TabIndex = 486
         Me.Label6.Text = "TOTAL"
         '
@@ -1125,11 +1125,11 @@ Public Class StockIssue_Indent_authorization
         Me.Txt_qty.BackColor = System.Drawing.Color.Wheat
         Me.Txt_qty.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.Txt_qty.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txt_qty.Location = New System.Drawing.Point(108, 9)
+        Me.Txt_qty.Location = New System.Drawing.Point(72, 6)
         Me.Txt_qty.MaxLength = 15
         Me.Txt_qty.Name = "Txt_qty"
         Me.Txt_qty.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Txt_qty.Size = New System.Drawing.Size(132, 35)
+        Me.Txt_qty.Size = New System.Drawing.Size(88, 26)
         Me.Txt_qty.TabIndex = 382
         '
         'txt_Totalamount
@@ -1137,19 +1137,19 @@ Public Class StockIssue_Indent_authorization
         Me.txt_Totalamount.BackColor = System.Drawing.Color.Wheat
         Me.txt_Totalamount.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txt_Totalamount.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_Totalamount.Location = New System.Drawing.Point(270, 12)
+        Me.txt_Totalamount.Location = New System.Drawing.Point(180, 8)
         Me.txt_Totalamount.MaxLength = 15
         Me.txt_Totalamount.Name = "txt_Totalamount"
         Me.txt_Totalamount.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.txt_Totalamount.Size = New System.Drawing.Size(156, 35)
+        Me.txt_Totalamount.Size = New System.Drawing.Size(104, 26)
         Me.txt_Totalamount.TabIndex = 381
         '
         'GroupBox6
         '
         Me.GroupBox6.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox6.Location = New System.Drawing.Point(12, 307)
+        Me.GroupBox6.Location = New System.Drawing.Point(8, 200)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(1070, 377)
+        Me.GroupBox6.Size = New System.Drawing.Size(713, 246)
         Me.GroupBox6.TabIndex = 492
         Me.GroupBox6.TabStop = False
         '
@@ -1158,9 +1158,9 @@ Public Class StockIssue_Indent_authorization
         Me.UNAUTHORISED.AutoSize = True
         Me.UNAUTHORISED.Checked = True
         Me.UNAUTHORISED.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.UNAUTHORISED.Location = New System.Drawing.Point(1052, 78)
+        Me.UNAUTHORISED.Location = New System.Drawing.Point(701, 51)
         Me.UNAUTHORISED.Name = "UNAUTHORISED"
-        Me.UNAUTHORISED.Size = New System.Drawing.Size(195, 27)
+        Me.UNAUTHORISED.Size = New System.Drawing.Size(124, 19)
         Me.UNAUTHORISED.TabIndex = 493
         Me.UNAUTHORISED.Text = "UNAUTHORISED"
         Me.UNAUTHORISED.UseVisualStyleBackColor = True
@@ -1168,11 +1168,11 @@ Public Class StockIssue_Indent_authorization
         '
         'StockIssue_Indent_authorization
         '
-        Me.AutoScaleBaseSize = New System.Drawing.Size(9, 23)
+        Me.AutoScaleBaseSize = New System.Drawing.Size(6, 15)
         Me.BackColor = System.Drawing.Color.Cornsilk
         Me.BackgroundImage = Global.SmartCard.My.Resources.Resources.Chs_Background_form_new
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1325, 1050)
+        Me.ClientSize = New System.Drawing.Size(1325, 749)
         Me.Controls.Add(Me.UNAUTHORISED)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.CHK_WAR)
@@ -1937,6 +1937,7 @@ Public Class StockIssue_Indent_authorization
             Dim i, j As Integer
             Dim itemcode As String
             boolchk = False
+
             Call Checkdatevalidate(Format(dtp_Docdate.Value, "dd-MMM-yyyy"))
 
             If DateDiff(DateInterval.Day, dtp_IndentDate.Value, dtp_Docdate.Value) < 0 Then
